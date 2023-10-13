@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Downloadlinkyy!</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .blocks {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .block {
+      width: calc(33.33% - 20px); /* Adjust the width to fit three blocks in a row */
+      background-color: #555;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    
+    .block:hover {
+      background-color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Downloadlinkyy!</h1>
+      <h2>Downloadlinkyy! shows important links for MediaSavvy! and myself.
+    </header>
+    
+    <div class="blocks">
+      <div class="block" onclick="window.location.href = 'https://mediasavvy.pages.dev';">
+        <h2>MediaSavvy!</h2>
+      </div>
+      <div class="block" onclick="window.location.href = 'https://github.com/MediaSavvy/Solaris2.0/releases/download/Solaris/SolarisInstaller.vbs';">
+        <h2>Solaris 2.0 downloader</h2>
+      </div>
+      <div class="block" onclick="window.location.href = 'https://website3.com';">
+        <h2>Website 3</h2>
+      </div>
+      <div class="block" onclick="window.location.href = 'https://website4.com';">
+        <h2>Website 4</h2>
+      </div>
+      <div class="block" onclick="window.location.href = 'https://website5.com';">
+        <h2>Website 5</h2>
+      </div>
+      <div class="block" onclick="window.location.href = 'https://website6.com';">
+        <h2>Website 6</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
