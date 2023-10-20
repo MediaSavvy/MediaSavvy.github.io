@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Modern Website</title>
+  <title>My Website</title>
   <style>
     body {
       background-color: #333;
       color: #fff;
-      font-family: 'Roboto', sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
+      font-family: Arial, sans-serif;
     }
     
-    .header {
+    .container {
       text-align: center;
-      margin-bottom: 40px;
+      margin-top: 100px;
     }
     
-    .blocks {
-      display: flex;
-      justify-content: space-between;
+    h1 {
+      font-size: 36px;
     }
     
     .block {
+      display: inline-block;
       width: 100px;
       height: 100px;
       background-color: #555;
-      padding: 20px;
-      text-align: center;
-      cursor: pointer;
-      border-radius: 15px; /* Make the blocks rounded */
       margin: 10px;
+      border-radius: 5px;
     }
     
-    .block:hover {
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
       background-color: #777;
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+      border-radius: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>My Sites:</h1>
-  </div>
-  
-  <div class="blocks">
-    <div class="block" onclick="window.location.href = 'https://mediasavvy.pages.dev';">
-      <h2>MediaSavvy</h2>
+  <div class="container">
+    <h1>My Website</h1>
+    
+    <div class="round-rectangles">
+      <a class="button" href="about.html">About</a>
+      <a class="button" href="contact.html">Contact</a>
+      <a class="button" href="https://github.com">Github</a>
     </div>
-    <div class="block" onclick="window.location.href = 'https://mediasavvy.github.io/mediasavvy';">
-      <h2>MediaSavvy Mirror(Old theme)</h2>
-    </div>
-    <div class="block" onclick="window.location.href = 'https://mediasavvvy.pages.dev';">
-      <h2>MediaSavvy Mirror 2 (Block Theme)</h2>
+    
+    <div class="grid">
+      <div class="block">
+        <a href="website1.html">Website 1</a>
+      </div>
+      <div class="block">
+        <a href="website2.html">Website 2</a>
+      </div>
+      <div class="block">
+        <a href="website3.html">Website 3</a>
+      </div>
+      <div class="block">
+        <a href="website4.html">Website 4</a>
+      </div>
+      <div class="block">
+        <a href="website5.html">Website 5</a>
+      </div>
+      <div class="block">
+        <a href="website6.html">Website 6</a>
+      </div>
+      <div class="block">
+        <a href="website7.html">Website 7</a>
+      </div>
+      <div class="block">
+        <a href="website8.html">Website 8</a>
+      </div>
+      <div class="block">
+        <a href="website9.html">Website 9</a>
+      </div>
     </div>
   </div>
 </body>
