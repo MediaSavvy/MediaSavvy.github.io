@@ -1,0 +1,21 @@
+/* Apply the Roboto font to the entire body of the page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #A9A9A9; /* dark gray background */
+  color: #FFFFFF; /* white text color, for better readability on dark gray */
+}
+
+/* Style all links to have green color */
+a {
+  color: #008000; /* green color for links */
+  text-decoration: none; /* optional: removes the underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* optional: adds an underline to links on hover */
+}
+
+/* If you want to enforce the Roboto font on every element explicitly */
+* {
+  font-family: 'Roboto', sans-serif;
+}
